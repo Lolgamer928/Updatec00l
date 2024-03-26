@@ -12921,7 +12921,7 @@ submit.Text = ""
 submit.TextColor3 = Color3.fromRGB(0, 0, 0)
 submit.TextSize = 14.000
 submit.MouseButton1Down:connect(function()
-if user.Text == "rc7betatester3" and pass.Text == "Bacon2" then
+if user.Text == "..game.Players.LocalPlayer.Name" and pass.Text == "Bacon2" then
 			passpage.Visible = false
 			mainpage.Visible = true
 		else	
